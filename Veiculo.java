@@ -19,3 +19,7 @@ public class Veiculo {
     public int getAno() {
         return ano;
     }
+    
+ public void setMarca(String marca) {
+        this.marca = marca;
+    }
