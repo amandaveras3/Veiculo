@@ -31,3 +31,8 @@ public void setMarca(String marca) {
     public void setAno(int ano) {
         this.ano = ano;
     }
+
+ public void exibirDetalhes() {
+        System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano);
+    }
+}
