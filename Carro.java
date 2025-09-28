@@ -5,3 +5,11 @@ public class Carro extends Veiculo {
         super(marca, modelo, ano);
         this.numeroDePortas = numeroDePortas;
     }
+
+    public int getNumeroDePortas() {
+        return numeroDePortas;
+    }
+
+    public void setNumeroDePortas(int numeroDePortas) {
+        this.numeroDePortas = numeroDePortas;
+    }
